@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import time
 
-model=joblib.load("model/model.pkl")
+model=joblib.load("lr-diabetes-prediction-streamlit/model/model.pkl")
 
 st.title("Diabetes Prediction Site")
 
